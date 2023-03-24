@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -29,13 +30,13 @@ export default function Home() {
             <p>I try to backup what I learned on my blog.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+          <Link
+            href="/posts/about-me"
             className={styles.card}
           >
             <h3>About Me &rarr;</h3>
             <p>In case you want to know more about me...</p>
-          </a>
+          </Link>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
