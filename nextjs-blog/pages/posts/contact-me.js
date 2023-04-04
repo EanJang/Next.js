@@ -11,9 +11,6 @@ export default function ContactMe() {
             <h1>Contact Me</h1>
             <h3>Email</h3>
             <p>klaude.jang@gmail.com</p>
-            <h2>
-                <Link href="/">Back to home</Link>
-            </h2>
         </Layout>
     );
 }

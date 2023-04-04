@@ -11,9 +11,6 @@ export default function AboutMe() {
             <h1>About Me</h1>
             <h3>Klaude Jang</h3>
             <p>Frontend developer and CS student</p>
-            <h2>
-                <Link href="/">Back to home</Link>
-            </h2>
         </Layout>
     );
 }
