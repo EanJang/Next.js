@@ -5,10 +5,13 @@ export default function Post({postData}) {
     return (
         <Layout>
             {postData.title}
-            <br/>
+            <br />
             {postData.id}
-            <br/>
+            <br />
             {postData.date}
+            <br />
+            <br />
+            <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
         </Layout>
     );
 }
