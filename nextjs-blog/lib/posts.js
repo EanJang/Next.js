@@ -1,10 +1,13 @@
-// fs is a Node.js module that let's you read files from the file system.
-// path is a Node.js module that let's you manipulate file paths.
-// matter is a library that let's you parse the metadata in each markdown file.
+// fs is a Node.js module that lets you read files from the file system.
+// path is a Node.js module that lets you manipulate file paths.
+// matter is a library that lets you parse the metadata in each markdown file.
+// remark is a library that lets you render markdown content.
 
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
